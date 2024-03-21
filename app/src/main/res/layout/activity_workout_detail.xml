@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutPlan">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextstyle"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:divider="@color/colorPrimary"
+            android:longClickable="true"
+            android:scrollbars="none"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints" />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:background="@drawable/list_down_style"-->
+<!--            android:weightSum="2">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1.5"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@drawable/list_button_style"-->
+<!--                android:text="Bodypart:"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/bodypart"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="10dp"-->
+<!--                android:text="Bodypart"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:background="@drawable/list_down_style"-->
+<!--            android:weightSum="2">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1.5"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@drawable/list_button_style"-->
+<!--                android:text="Remark:"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/remark"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="10dp"-->
+<!--                android:text="Remark"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:background="@drawable/list_down_style"-->
+<!--            android:weightSum="2">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1.5"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@drawable/list_button_style"-->
+<!--                android:text="Exercise:"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/exercise"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+
+<!--                android:padding="10dp"-->
+<!--                android:text="Exercise"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="4">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="10dp"-->
+<!--                android:text="Sets:"-->
+<!--                android:background="@drawable/list_button_style"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="10dp"-->
+<!--                android:text="Sets:"-->
+<!--                android:background="@drawable/list_button_style"-->
+<!--                android:id="@+id/sets"-->
+<!--                android:textSize="18sp"></TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@drawable/list_button_style"-->
+<!--                android:text="Repeat"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/repitations"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="10dp"-->
+
+<!--                android:text="Repitation"-->
+<!--                android:textSize="18sp"></TextView>-->
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+</LinearLayout>

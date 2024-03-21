@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Oneabove Fitness</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="url_mesurement">http://oneabovefit.ezeeclub.net/MobileAppService.svc/</string>
+    <string name="action_settings">Settings</string>
+    <string name="type_your_message">Enter msg</string>
+    <string name="NoRecent">No recent</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="copy_rights">Copyrights © %1$d</string>
+    <string name="action_share">Share</string>
+    <string name="action_explore">Copy to Clipboard</string>
+    <string name="card_title">Todays Thought </string>
+    <string name="card_content">Well begin is half done...</string>
+    <string name="title_activity_calender">CalenderActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </string-array>
+</resources>

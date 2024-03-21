@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tsysinfo.oneabove.SocialActivity">
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/facebook"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/facebook"
+        android:layout_marginStart="108dp"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/facebook"
+        android:layout_marginEnd="105dp"
+        android:src="@drawable/instagram" />
+
+    <ImageView
+        android:id="@+id/youtube"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/facebook"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/youtube" />
+    <TextView
+        android:id="@+id/noti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text=" "
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context="com.tsysinfo.oneabove.RulesActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valid gym membership"
+        android:textSize="20dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proper sports wear"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use a towel"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bring a water bottle"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take care of Bags and personal belongings"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cleaning cardio equipment"/>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/noti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text=" "
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

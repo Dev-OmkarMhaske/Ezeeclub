@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.tsysinfo.oneabove.FoodReminder">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/root_view"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#66575454"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textDay"
+                    android:text="Day"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textbody"
+                    android:visibility="gone"
+                    android:text="BodyPart"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="normal"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textremark"
+                    android:text="Remrks"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="normal"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textsets"
+                    android:text="Remrks"
+                    android:visibility="gone"
+                    android:gravity="center"
+
+
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="normal"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textrepitations"
+                    android:text="Remrks"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="normal"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textexercise"
+                    android:text="Remrks"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="normal"></TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
